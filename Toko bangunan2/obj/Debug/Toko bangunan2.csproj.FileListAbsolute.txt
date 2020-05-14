@@ -1,0 +1,10 @@
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\bin\Debug\Toko bangunan2.exe.config
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\bin\Debug\Toko bangunan2.exe
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\bin\Debug\Toko bangunan2.pdb
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\obj\Debug\Toko bangunan2.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\obj\Debug\Toko_bangunan2.Form1.resources
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\obj\Debug\Toko_bangunan2.Properties.Resources.resources
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\obj\Debug\Toko bangunan2.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\obj\Debug\Toko bangunan2.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\obj\Debug\Toko bangunan2.exe
+C:\Users\HP\source\repos\Toko bangunan2\Toko bangunan2\obj\Debug\Toko bangunan2.pdb
