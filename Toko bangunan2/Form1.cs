@@ -99,7 +99,7 @@ namespace Toko_bangunan2
                     }
                 }
                 harga = total - diskon;
-                MessageBox.Show("total pembelian " + harga);
+                MessageBox.Show("total pembelian Rp" + harga);
             }
             else
             {
@@ -133,6 +133,51 @@ namespace Toko_bangunan2
             Bangunan cek = new Bangunan();
             cek.setPasir("Rp5000 per kilogram");
             MessageBox.Show("harga pasir " + cek.getPasir());
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            double a, b, c, d, f, batako, semen, pipa, pasir, total, diskon, harga;
+            a = double.Parse(this.numericUpDown1.Text);
+            b = double.Parse(this.numericUpDown2.Text);
+            c = double.Parse(this.numericUpDown3.Text);
+            d = double.Parse(this.numericUpDown4.Text);
+            f = a + b + c + d;
+            batako = a * 50000;
+            semen = b * 20000;
+            pipa = c * 10000;
+            pasir = d * 5000;
+            total = batako + semen + pipa + pasir;
+            diskon = 0;
+            for (int i = 1; i <= f; i++)
+            {
+                if (i % 10 == 0)
+                {
+                    diskon += 10000;
+                }
+                else
+                {
+                    diskon += 1000;
+                }
+            }
+            this.textBox1.Text = Convert.ToString(total);
+            this.textBox2.Text = Convert.ToString(diskon);
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            this.textBox1.Text = "";
+            this.textBox2.Text = "";
+        }
+
+        private void NumericUpDown2_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
